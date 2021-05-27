@@ -1,0 +1,231 @@
+﻿*{
+    border:0;
+}
+/* 创建两列 */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 25%;  
+}
+.leftcolumn dl{
+    margin-top: 40%;
+    margin-bottom: 9%;
+}
+    .leftcolumn dt, dd {
+        
+        margin-left: 5%;
+        margin-right: 2%;
+        width: 93%;
+    }
+.leftcolumn img{
+
+}
+.leftcolumn a{
+    color: #000000;
+}
+
+.leftcolumn a:hover {
+    color: #996600;
+}
+/* 右侧栏 */
+.rightcolumn {
+    float: left;
+    width: 75%;
+    /*background-color: #f1f1f1;*/
+}
+.rightcolumn h1{
+    margin-top:16%;
+    margin-left: 6%;
+    margin-right: 10%;
+}
+.rightcolumn p{
+    float:right; 
+    margin-left: 6%;
+    margin-right: 10%;
+}
+
+.rightcolumn video{
+    /*float: left;*/
+    max-width: 100%;
+    margin-top:  0%;
+    margin-left: 6%;
+    margin-right: 10%;
+    margin-bottom:  3%;
+    width: 84%;
+   
+   /*z-index: -11*/
+}
+/*.column{
+    display:inline;
+}*/
+/* 图像部分 */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/*.clear {
+    clear:both;
+}*/
+/* 激活效果 */
+.active {
+    background-color: #4CAF50;
+}
+
+/* 文章卡片效果 */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+ 列后面清除浮动 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+       
+
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+    }
+    .topnav a {       /* 导航条变为上下布局 */
+        float: none;
+        width: 100%;
+    }
+    .footer a {       /* 底部变为上下布局 */ 
+        float: none;
+        width: 100%;
+    }
+    .leftcolumn dl {
+        margin-top: 70%;
+        margin-bottom: 9%;
+    }
+}
+
+
+/* 头部区域 */
+.header {    
+    width: 100%;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+/* 导航条 */
+.topnav {
+    position: fixed; /* 固定在头部 */
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #000000;
+}
+    .topnav img {
+        /* max-height: 16px;*/  
+        
+        max-width: 45px;
+    }
+    .topnav ul {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        list-style-type: none; /* 移除列表前小标志。一个导航栏并不需要列表标记 */
+        /* margin: 0;
+        padding: 0;*/
+        overflow: hidden;
+        background-color: #ffffff;
+    }
+    /*.topnav li {
+        border-right: 1px solid #bbb;*/ /* 添加分割线*/
+        /*float: left;*/ /* 靠左浮动，实现 ul 的水平实现 */
+    /*}
+.topnav li:last-child {
+    border-right: none;*/ /* 最后一个不添加分割线*/
+/*}*/
+    /* 导航链接 */
+    .topnav a {
+        float: left;
+        display: block;
+        width: 60px;
+        color: #000000;
+        text-align: center;
+        padding: 14px  16px;
+        text-decoration: none;
+    }
+
+        /* 链接 - 修改颜色 */
+        .topnav a:hover {
+            background-color: #000000;
+            color: #00ffff;
+        }
+/* 底部区域 */
+.footer {
+    overflow: hidden;
+    width: 100%;
+    background-color: #333;
+    text-align: center;    
+}
+    .footer table {
+        width:50%;
+        border:0;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        background-color: #333;
+        font-size: 15px;
+    }
+    .footer th {
+        /*border-right: 1px solid #bbb;  添加分割线*/
+        
+    }
+    
+
+     /*   .footer th:last-child {
+            border-right: none;  最后一个不添加分割线
+        }*/
+
+.footer ul {
+   /* float:left;*/
+    list-style-type:none;
+    margin: 0 auto;
+     text-align: center;
+    padding: 0;
+    overflow: hidden;   
+    background-color: #333;
+}
+
+.footer li {
+    float: left;    /* 靠左浮动，实现 ul 的水平实现 */
+    list-style-type: none;
+}
+/* 底部链接 */
+    .footer a {
+        /*float:unset;*/
+        /* display: block;*/
+        /*  width: 60px;*/
+        color: #f2f2f2;
+        text-align: center;
+        margin:0%;
+        text-decoration: none;
+    }
+.footer a:hover {
+    color: #00ffff;
+}
+
+
+body {
+    /*overflow: hidden;*/ /* 取消浮动时与 clear：both冲突 */
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+}
+
