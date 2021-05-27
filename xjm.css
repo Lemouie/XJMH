@@ -110,6 +110,14 @@
     margin-top: 130%;
     margin-bottom: 9%;
 }
+    .topnav {
+    margin:0;
+    padding:0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
     .topnav a {       /* 导航条变为上下布局 */
         float: none;
         width: 100%;
