@@ -122,51 +122,76 @@
 }
 /* 导航条 */
 .topnav {
+    margin:0;
+    padding:0;
     position: fixed; /* 固定在头部 */
     top: 0;
     width: 100%;
     overflow: hidden;
     background-color: #ffffff;
-    color: #000000;
 }
-    .topnav img {
-        /* max-height: 16px;*/  
-        
-        max-width: 45px;
-    }
-    .topnav ul {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        list-style-type: none; /* 移除列表前小标志。一个导航栏并不需要列表标记 */
-        /* margin: 0;
+
+.lefttop {
+    float: left;
+    width: 20%;
+}
+.righttop {
+    float: left;
+    width: 80%
+}
+.lefttop ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+.lefttop li {
+    float: right;
+}
+.lefttop a {
+    float:right;
+    display: block;
+    /*width: 60px;*/
+    padding: 14px 16px;
+}
+.lefttop a:hover {
+    background-color: #000000;
+}
+.lefttop img {
+    /*float: right;*/
+    max-height:45px;
+   /* width: 60px;*/
+}
+
+
+.righttop ul {
+    margin-left: 0%;
+    margin-right: 8%;
+    list-style-type: none; /* 移除列表前小标志。一个导航栏并不需要列表标记 */
+    /* margin: 0;
         padding: 0;*/
-        overflow: hidden;
-        background-color: #ffffff;
-    }
-    /*.topnav li {
-        border-right: 1px solid #bbb;*/ /* 添加分割线*/
-        /*float: left;*/ /* 靠左浮动，实现 ul 的水平实现 */
-    /*}
-.topnav li:last-child {
-    border-right: none;*/ /* 最后一个不添加分割线*/
-/*}*/
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.righttop li {
+    float: left;
+}
+/*.topnav li:last-child {
+    border-right: none;  最后一个不添加分割线
+}*/
     /* 导航链接 */
-    .topnav a {
-        float: left;
-        display: block;
-        width: 60px;
-        color: #000000;
-        text-align: center;
-        padding: 14px  16px;
-        text-decoration: none;
-    }
+.righttop a {
+    display: block;
+    width: 60px;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
         /* 链接 - 修改颜色 */
-        .topnav a:hover {
-            background-color: #000000;
-            color: #00ffff;
-        }
+.righttop a:hover {
+    background-color: #000000;
+    color: #00ffff;
+ }
 /* 底部区域 */
 .footer {
     overflow: hidden;
