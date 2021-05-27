@@ -8,7 +8,7 @@
     width: 25%;  
 }
 .leftcolumn dl{
-    margin-top: 50%;
+    margin-top: 40%;
     margin-bottom: 9%;
 }
     .leftcolumn dt, dd {
@@ -98,6 +98,18 @@
     .leftcolumn, .rightcolumn {
         width: 100%;
     }
+    .lefttop {
+    float: none;
+    width: 100%;
+}
+    .righttop {
+    float: none;
+    width: 100%;
+}
+    .leftcolumn dl{
+    margin-top: 130%;
+    margin-bottom: 9%;
+}
     .topnav a {       /* 导航条变为上下布局 */
         float: none;
         width: 100%;
@@ -106,9 +118,14 @@
         float: none;
         width: 100%;
     }
-    .leftcolumn dl {
-        margin-top: 70%;
-        margin-bottom: 9%;
+    .footer table {
+        width:100%;
+        border:0;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        background-color: #000000;
+        font-size: 15px;
     }
 }
 
@@ -133,11 +150,11 @@
 
 .lefttop {
     float: left;
-    width: 40%;
+    width: 20%;
 }
 .righttop {
     float: left;
-    width: 60%
+    width: 80%;
 }
 .lefttop ul {
     list-style-type: none;
