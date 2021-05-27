@@ -8,7 +8,7 @@
     width: 25%;  
 }
 .leftcolumn dl{
-    margin-top: 40%;
+    margin-top: 50%;
     margin-bottom: 9%;
 }
     .leftcolumn dt, dd {
@@ -133,11 +133,11 @@
 
 .lefttop {
     float: left;
-    width: 30%;
+    width: 40%;
 }
 .righttop {
     float: left;
-    width: 70%
+    width: 60%
 }
 .lefttop ul {
     list-style-type: none;
