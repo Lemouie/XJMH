@@ -55,7 +55,7 @@ XJMH
 
 ## 开发指南:
 - 1、Windows10安装 Git、PowerDesigner并**启动相关服务**
-- 2、克隆源代码到本地并打开，**Visual Studio 2019**，本地编译
+- 2、克隆源代码到本地并打开，**推荐使用Visual Studio 2019**，本地编译
 - ### 框架规范约定
  约定优于配置(convention over configuration)，此框架约定了很多编程规范，下面一一列举：
 ```
