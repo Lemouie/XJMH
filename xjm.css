@@ -99,8 +99,11 @@
         width: 100%;
     }
    
-    .lefttop, .righttop{
-        width:100%;
+    .lefttop{
+        width:50%;
+    }
+    .righttop{
+        width:50%;
     }
     .lefttop ul, righttop ul{
        margin:0;
