@@ -98,12 +98,10 @@
     .leftcolumn, .rightcolumn {
         width: 100%;
     }
-    .lefttop {
-    width: 100%;
-}
-    .righttop {
-    width: 100%;
-}
+   
+    .lefttop ul{
+        width:100%;
+    }
     .leftcolumn dl{
     margin-top: 130%;
     margin-bottom: 9%;
