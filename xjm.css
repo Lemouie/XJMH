@@ -177,7 +177,7 @@
     background-color: #000000;
 }
 .lefttop img {
-    /*float: right;*/
+    float: right;
     max-height:45px;
    /* width: 60px;*/
 }
