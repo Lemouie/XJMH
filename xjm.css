@@ -171,13 +171,13 @@
     float:right;
     display: block;
     width: 60px;
-    padding: 14px 16px;
+    padding: 15px 15px;
 }
 .lefttop a:hover {
     background-color: #000000;
 }
 .lefttop img {
-    float: right;
+   /*float: right; */
     max-height:45px;
    /* width: 60px;*/
 }
