@@ -168,19 +168,19 @@
     float: right;
 }
 .lefttop a {
-    float:right;
+    float: right;
     display: block;
-    width: 60px;
-    height: 60px;
-    padding: 5px 5px;
+    width: 80px;
+    height: 80px;
 }
 .lefttop a:hover {
     background-color: #000000;
 }
 .lefttop img {
    /*float: right; */
-    width:50px;
-    height:50px;
+    margin:5%;
+    width: 90%;
+    height: 90%;
    /* width: 60px;*/
 }
 
